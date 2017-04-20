@@ -155,7 +155,7 @@ Now, let’s test the deployment using the [Apigee REST Client](https://apigee-r
 
 3. Obtain an access token. Specify these settings:
 
-   * url endpoint: https://{YOURORG}-test.apigee.net/devjam3/oauth/client_credential/accesstoken?grant_type=client_credentials
+   * url endpoint: https://demo14-test.apigee.net/v1/oauth/accesstoken?grant_type=client_credentials
    * method: POST
    * Header: `Authorization: Basic {base64 encoded client credentials value}`   
      * For the value in the header, use the base64 encoded value of API Key and secret pair that you obtained previously.
